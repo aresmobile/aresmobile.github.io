@@ -1,3 +1,7 @@
+### 2018.6.15
+
+增加Ares Butterlfy
+
 ### 2018.6.13
 
 增加NativeModules.AresSecurity、NativeModules.AresWeChat等接口
