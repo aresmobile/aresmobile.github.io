@@ -506,3 +506,39 @@
         console.log(res.message)
     }
 ```
+
+### NativeModules.AppInfo.get
+###### 接口功能
+
+> 获取App的信息如name、version、pid
+
+###### 支持平台
+
+> android/iOS
+
+###### 请求说明
+
+> 无
+
+###### 返回说明
+
+> Object
+
+|返回值|返回类型|说明|
+|:-|:-|:-|
+|pid|number|工程id|
+|name|string|app的名称|
+|version|string|app的版本号|
+
+###### 接口示例
+
+```javascript
+​    const res = await NativeModules.AppInfo.get()
+    if (res.status > 0) {
+        if (res.data != undefined) {
+            console.log(res.data)
+        }
+    } else {
+        console.log(res.message)
+    }
+```
