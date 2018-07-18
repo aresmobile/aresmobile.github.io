@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="https://unpkg.com/docute@3/dist/docute.css">
   <link rel="icon" href="favicon.ico" />
 </head>
+
 <body>
   <div id="app"></div>
   <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
@@ -15,41 +17,68 @@
     docute.init({
       disableSidebarToggle: true,
       sidebar: true,
-      home: '/docs/home.md',//history
-      nav: [
-        {title: '更新记录', path: '/home'},
-        {title: '如何使用', type: 'dropdown', items: [
-          {
-            path: '/src/howtoimport/importrn',title: 'ReactNative'
-          },
-          {
-            path: '/src/howtoimport/importh5',title: 'H5'
-          }
-        ]},
-        {title: 'API', type: 'dropdown', items: [
+      home: '/docs/home.md', //history
+      nav: [{
+          title: '更新记录',
+          path: '/home'
+        },
         {
-            path: '/src/api/apirnnew',title: 'ReactNative(new)'
-          },
-          {
-            path: '/src/api/apirn',title: 'ReactNative'
-          },
-          {
-            path: '/src/api/props',title: 'ReactNative props'
-          },
-          {
-            path: '/src/event',title: 'ReactNative event'
-          },
-          {
-            path: '/src/api/apih5',title: 'H5 API'
-          },
-          {
-            path: '/src/api/butterfly', title: 'Ares Butterfly'
-          }
-        ]},
-        {title: "ares-cli", path: '/src/cli'},
-        {title: "原理参考", path: '/ares'}
+          title: '如何使用',
+          type: 'dropdown',
+          items: [{
+              path: '/src/howtoimport/importrn',
+              title: 'ReactNative'
+            },
+            {
+              path: '/src/howtoimport/importh5',
+              title: 'H5'
+            }
+          ]
+        },
+        {
+          title: 'API',
+          type: 'dropdown',
+          items: [{
+              path: '/src/api/apirnnew',
+              title: 'ReactNative API(developing)'
+            },
+            {
+              path: '/src/api/apirn',
+              title: 'ReactNative API(current)'
+            },
+            {
+              path: '/src/api/component',
+              title: 'ReactNative Component'
+            },
+            {
+              path: '/src/api/props',
+              title: 'ReactNative props'
+            },
+            {
+              path: '/src/event',
+              title: 'ReactNative event'
+            },
+            {
+              path: '/src/api/apih5',
+              title: 'H5 API'
+            },
+            {
+              path: '/src/api/butterfly',
+              title: 'Ares Butterfly'
+            }
+          ]
+        },
+        {
+          title: "ares-cli",
+          path: '/src/cli'
+        },
+        {
+          title: "原理参考",
+          path: '/ares'
+        }
       ]
     })
   </script>
 </body>
+
 </html>
