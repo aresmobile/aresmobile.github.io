@@ -242,7 +242,7 @@
 
 |请求值|请求类型|说明|
 |:-|:-|:-|
-|key|string|Key值。可取'gray', 'eid', 'sv'|
+|key|string|Key值。可取'gray', 'eid', 'sv','envId'|
 |value|number|数据。当key为'gray'时，value为0或者1|
 
 ###### 返回说明
@@ -541,4 +541,27 @@
     } else {
         console.log(res.message)
     }
+```
+
+### NativeModules.util.comment
+###### 接口功能
+
+> 打开app评分
+
+###### 支持平台
+
+> android/iOS
+
+###### 请求说明
+
+> 无
+
+###### 返回说明
+
+> 无
+
+###### 接口示例
+
+```javascript
+​    NativeModules.util.comment()
 ```

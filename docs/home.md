@@ -1,6 +1,19 @@
-### 2018.6.15
+### 2018.8.10
 
-增加Ares Butterlfy
+增加NativeModules.util.comment接口
+
+|模块|说明|
+|:-----  |:-------|
+| NativeModules.util.comment | 评分   |
+
+### 2018.7
+
+增加AresWebView和AresMapView等接口
+
+|模块|说明|
+|:-----  |:-------|
+| AresWebView | 自定义WebView类   |
+| AresMapView| 自定义MapView类    |
 
 ### 2018.6.13
 
